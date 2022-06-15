@@ -14,45 +14,6 @@ _printenv.c 	prints the enviroment
 signal.c 	recreates the ctr-c command
 shell_div.c 	functions used
 man_1_simple_shell 	manual
-Installation
-
-Clone the repository. Compile the ".c" files. Run executable.
-
-$ git clone https://github.com/felipemontes/simple_shell.git
-
-Compile and start
-
-To start simple_shell you just need to compile using
-
-gcc -Wall -Werror   -Wextra -pedantic *.c -o hsh.
-
-run
-
-./hsh
-
-Usage (Interactive mode)
-
-hsh$ /bin/ls
-hsh$ ls -la
-hsh$ pwd
-
-Non - interactive mode
-
-hsh$ echo "/bin/ls" | ./hsh
-hsh main.c shell.c test_ls_2
-hsh$
-hsh$ cat test_ls_2
-/bin/ls
-/bin/ls
-hsh$
-hsh$ cat test_ls_2 | ./hsh
-hsh main.c shell.c test_ls_2
-hsh main.c shell.c test_ls_2
-hsh$
-
-Builtins
-
-env
 
 Authors
 Maureen Kerubo
